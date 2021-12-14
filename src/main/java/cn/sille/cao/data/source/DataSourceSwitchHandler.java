@@ -28,10 +28,10 @@ public class DataSourceSwitchHandler {
     @Autowired
     private LocalContainerEntityManagerFactoryBean entityManagerFactory;
 
-    private static final String MYSQL_URL = "jdbc:mysql://127.0.0.1:3306/sc-epam?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false&serverTimezone=Asia/Shanghai";
+    private static final String MYSQL_URL = "jdbc:mysql://127.0.0.1:3306/sille-test?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false&serverTimezone=Asia/Shanghai";
     private static final String MYSQL_DIVER_CLASS_NAME = "com.mysql.cj.jdbc.Driver";
     private static final String MYSQL_USERNAME = "root";
-    private static final String MYSQL_PASSWORD = "epam_systems";
+    private static final String MYSQL_PASSWORD = "****";
 
     public void switchDataSource(){
         log.info("Starting to switch Data Source...");
